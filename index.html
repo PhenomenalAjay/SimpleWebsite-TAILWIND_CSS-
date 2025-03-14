@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Improved Tailwind Example</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="p-10 md:p-10 text-gray-800">
+    <section class="bg-purple-100 rounded-2xl p-5">
+       
+
+        <div class="container  mx-auto">
+            <div class="flex">
+                <a href="index.html" class="text-3xl font-bold pl-3 pr-5 border-r border-red-300 mr-5">Agency</a>
+                <div class="my-auto">
+                   
+                    <ul class=" flex font-bold text-gray-600" >
+                        <li class="pr-5 "><a class="px-3.5 py-2 border border-purple-100 hover:border-purple-300 rounded"href="index.html">Home</a></li>
+                        <li class="pr-5 "><a class="px-3.5 py-2 border border-purple-100 hover:border-purple-300 rounded"href="">About</a></li>
+                        <li class="pr-5 "><a class="px-3.5 py-2 border border-purple-100 hover:border-purple-300 rounded"href="#services">Services</a></li>
+                        <li class="pr-5 "><a class="px-3.5 py-2 border border-purple-100 hover:border-purple-300 rounded"href="#testimonials">Review</a></li>
+                        <li class="pr-5 "><a class="px-3.5 py-2 border border-purple-100 hover:border-purple-300 rounded"href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <a href="" class="flex ml-auto text-medium bg-red-500 text-white px-3 py-2 rounded">
+                    <span class="pr-2 hidden lg:block ">Get a Quote</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                    <path d="M10.75 16.82A7.462 7.462 0 0 1 15 15.5c.71 0 1.396.098 2.046.282A.75.75 0 0 0 18 15.06v-11a.75.75 0 0 0-.546-.721A9.006 9.006 0 0 0 15 3a8.963 8.963 0 0 0-4.25 1.065V16.82ZM9.25 4.065A8.963 8.963 0 0 0 5 3c-.85 0-1.673.118-2.454.339A.75.75 0 0 0 2 4.06v11a.75.75 0 0 0 .954.721A7.506 7.506 0 0 1 5 15.5c1.579 0 3.042.487 4.25 1.32V4.065Z" />
+                  </svg>
+                  
+                  </a>
+
+            </div>
+            <div class="text-center mb-10">
+                <h1 class="text-5xl font-bold mt-13">Welcome to Our Agency</h1>
+                <p class="mt-9 text-lg">We provide the best services to help you succeed.</p>
+                <a href="#services" class="mt-6 inline-block bg-red-600 text-white py-3 px-5 rounded-lg shadow hover:bg-red-700 transition duration-300">Get Started</a>
+    
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="py-10">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-5 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Service 1</h3>
+                    <p class="mt-2">Description of service 1.</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Service 2</h3>
+                    <p class="mt-2">Description of service 2.</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Service 3</h3>
+                    <p class="mt-2">Description of service 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="bg-gray-100 py-10">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-8">Testimonials</h2>
+            <div class="flex flex-col items-center">
+                <blockquote class="bg-white p-5 rounded-lg shadow mb-4">
+                    <p class="italic">"This agency is fantastic! They helped us achieve our goals."</p>
+                    <footer class="mt-2">- Happy Customer</footer>
+                </blockquote>
+                <blockquote class="bg-white p-5 rounded-lg shadow mb-4">
+                    <p class="italic">"Great service and support. Highly recommend!"</p>
+                    <footer class="mt-2">- Satisfied Client</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact"class="bg-purple-100 py-5">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-600">Contact us: info@agency.com | Follow us on social media</p>
+            <p class="text-gray-600">&copy; 2023 Agency. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
